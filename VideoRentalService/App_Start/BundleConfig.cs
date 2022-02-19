@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AspNetMvcRazorSandbox
+namespace VideoRentalService
 {
     public class BundleConfig
     {

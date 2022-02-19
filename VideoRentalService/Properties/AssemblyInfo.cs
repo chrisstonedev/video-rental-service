@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AspNetMvcRazorSandbox")]
+[assembly: AssemblyTitle("VideoRentalService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AspNetMvcRazorSandbox")]
+[assembly: AssemblyProduct("VideoRentalService")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("F30EBF6B-A00F-46AB-882B-0C9CBFA74433")]
+[assembly: Guid("49DB4918-0AD2-45ED-BB4F-39B4AE1DD49C")]
 
 // Version information for an assembly consists of the following four values:
 //

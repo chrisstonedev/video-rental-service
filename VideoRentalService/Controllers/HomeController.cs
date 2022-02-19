@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AspNetMvcRazorSandbox.Controllers
+namespace VideoRentalService.Controllers
 {
     public class HomeController : Controller
     {
