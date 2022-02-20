@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using System.Web.Mvc;
 using VideoRentalService.Models;
+using VideoRentalService.ViewModels;
 
 namespace VideoRentalService.Controllers
 {
@@ -7,11 +9,20 @@ namespace VideoRentalService.Controllers
     {
         public ActionResult Random()
         {
-            var movie = new Movie
+            var movie = new Movie {Name = "Shrek"};
+            var customers = new List<Customer>
             {
-                Name = "Shrek"
+                new Customer {Name = "Customer 1"},
+                new Customer {Name = "Customer 2"}
             };
-            return View(movie);
+
+            var viewModel = new RandomMovieViewModel
+            {
+                Movie = movie,
+                Customers = customers
+            };
+
+            return View(viewModel);
         }
 
         public ActionResult Edit(int id)
